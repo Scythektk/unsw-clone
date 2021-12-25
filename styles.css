@@ -1,0 +1,191 @@
+.heading {
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 5.5rem;
+    font-family: Clancy, Arial, sans-serif;
+    margin: 0;
+    color: rgb(38, 38, 38);
+}
+
+.heading p {
+    font-size: 1.375rem;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(250, 222, 3);
+    overflow: scroll;
+}
+
+#navbar {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    margin: auto;
+    margin-top: 5px;
+    width: 90%;
+    z-index: 9999;
+    /* display: flex; */
+    /* position: relative; */
+}
+
+#small-navbar {
+    margin-top: -40px;
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+.logo-image {
+    float: left;
+    margin-left: 60px;
+    margin-top: 12px;
+    outline: none;
+}
+
+.img-fluid {
+    height: 50%;
+    width: 50%;
+    outline: none;
+}
+
+.links {
+    margin-top: 35px;
+    margin-right: 70px;
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+#navbar a:visited {
+    color: black;
+}
+
+#navbar a:hover {
+    color: rgb(96, 94, 94);
+    transition: 0.8s;
+}
+
+#small-navbar a {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 0.8rem;
+    font-family: RobotoMono, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+
+#small-navbar a:visited {
+    color: black;
+}
+
+#small-navbar a:hover {
+    text-decoration: underline;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#container1 {
+    display: flex;
+}
+
+#image {
+    float: right;
+    margin-top: 20px;
+    padding: 60px;
+}
+
+.bodyImg {
+    border-radius: 50%;
+    height: auto;
+}
+
+.registerBtn {
+    position: relative;
+    margin-left: 150px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+    margin-top: -100px;
+    padding: 20px;
+    width: 250px;
+    font-size: 1.2rem;
+    font-family: RobotoMono, Arial, sans-serif;
+    letter-spacing: 1px;
+    height: auto;
+    line-height: 22px;
+}
+
+.registerBtn:hover {
+    background-color: rgb(230, 196, 3);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    width: 85%;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 3.5625rem;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.container2 {
+    display: flex;
+    padding: 20px;
+}
+
+.container2Items {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 20px;
+    width: 350px;
+}
+
+.container2Items a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.container2Items a:hover {
+    text-decoration: underline;
+}
+
+/* .container2img {
+
+} */
+
+.container3 {
+    display: flex;
+    margin-left: 100px;
+    /* padding: 100px; */
+}
