@@ -76,7 +76,6 @@ body {
 
 #navbar a:hover {
     color: rgb(96, 94, 94);
-    transition: 0.8s;
 }
 
 #small-navbar a {
@@ -139,7 +138,6 @@ body {
 
 .registerBtn:hover {
     background-color: rgb(230, 196, 3);
-    transition: 0.8s;
     cursor: pointer;
 }
 
